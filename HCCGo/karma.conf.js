@@ -20,6 +20,7 @@ module.exports = function(config) {
       '../node_modules/angular-route/angular-route.js', // ui-router
       '../node_modules/angular-mocks/angular-mocks.js',                 // loads our modules for tests
       './app/lib/angular-toastr/angular-toastr.tpls.js',
+      './app/lib/jquery/jquery.js',
       './node_modules/async/dist/async.js',
       './app/js/GenericClusterInterface.js',
       // Mocks
@@ -38,6 +39,9 @@ module.exports = function(config) {
       './app/js/analytics.js',
       './app/js/app.js',
       './app/js/dataUsageService.js',
+      './app/js/tutorialCtrl.js',
+      './app/js/jobHistoryCtrl.js',
+      './app/js/dbService.js',
       // Specs
       '../test/specs/*.js'
 
