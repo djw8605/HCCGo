@@ -1,4 +1,4 @@
-describe('Data Usage Service', function() {
+describe('Tutorial Controller', function() {
     var tutorialCtrl;
     var $q;
     var $rootScope;
